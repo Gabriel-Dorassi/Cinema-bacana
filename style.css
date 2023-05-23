@@ -1,0 +1,41 @@
+body{
+    font-family: Arial,  sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie-card{
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.movie-card{
+    margin-bottom: 10px;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
